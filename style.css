@@ -1,0 +1,128 @@
+#navbar_toggle {
+  position:absolute; /*it can be fixed too*/
+  left:30px; right:0;
+  top:15px; bottom:0;
+  margin:auto;
+  height:17px;
+  width:17px;
+  margin:0px;
+}
+
+#sunlight_logo{
+  position:absolute; /*it can be fixed too*/
+  left:0; right:0;
+  top:0; bottom:0;
+  margin:auto;
+  width:220px;
+  height:40px;
+}
+#sunlight_logo a, a:hover, a:active, a:visited {
+    text-decoration:none;
+}
+#ul li a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color:grey;
+  background-color: transparent;
+}
+#ul {
+  padding-left: 10px;
+}
+#congressAPI {
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+
+#chamber_logo{
+  height: auto;
+  width: auto;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+#navbar{
+ padding-left: 0px !important;
+ padding-right: 0px !important;
+ margin-top:50px;
+ height:840px;
+}
+
+#myNavbar {
+  padding-left: 0px !important;
+  margin-top:0px;
+  height:840px;
+  position: fixed;
+}
+
+#right_side {
+ margin-top:50px;
+}
+#party_logo{
+  height: auto;
+  width: auto;
+  max-width: 20px;
+  max-height: 20px;
+}
+#subtitle{
+  display:inline-block;
+  vertical-align: bottom;
+  padding:0px;
+}
+.page-header{
+  margin-top: 0px;
+}
+#select{
+  position: absolute;
+  right:25px;
+  display:inline-block;
+  vertical-align: bottom;
+}
+#tab-content {
+  margin:15px;
+}
+.panel-heading{
+  height:40px;
+}
+#search {
+  position: absolute;
+  right:25px;
+  display:inline-block;
+  vertical-align: bottom;
+}
+#middle_panel{
+  margin:0px;
+}
+#avatar{
+  width:auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  display:block;
+  margin:0 auto;
+  vertical-align:middle;
+}
+#fav {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+#details_left{
+  display: inline-block;
+}
+#details_right{
+  display: inline-block;
+}
+#avatar_logo {
+  max-width: 40px;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+}
+#del_btn i:hover {
+  color:red;
+}
+/*#basic_info{
+  display: block;
+}*/
+/*@media(max-width:767px) {
+}*/
